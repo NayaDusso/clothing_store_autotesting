@@ -13,4 +13,3 @@ class LoginPage(BasePage):
         email_input.send_keys(random_email)
         submit_registration = self.browser.find_element(*LoginPageLocators.SUBMIT_CREATE)
         submit_registration.click()
-
