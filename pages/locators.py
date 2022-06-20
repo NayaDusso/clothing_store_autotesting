@@ -1,6 +1,8 @@
 from selenium.webdriver.common.by import By
 
+
 class BasePageLocators():
+
     LOGIN_LINK = (By.CSS_SELECTOR, ".login")
     CONTACT_LINK = (By.CSS_SELECTOR, "#contact-link > a")
     BASKET_LINK = (By.CSS_SELECTOR, ".shopping_cart > a")
@@ -10,7 +12,9 @@ class BasePageLocators():
     NEWSLETTER_INPUT  = (By.CSS_SELECTOR, "#newsletter-input")
     NEWSLETTER_SUBMIT = (By.NAME, "submitNewsletter")
 
+
 class LoginPageLocators():
+
     EMAIL_CREATE_INPUT = (By.CSS_SELECTOR, "#email_create")
     SUBMIT_CREATE = (By.CSS_SELECTOR, "#SubmitCreate")
     EMAIL_LOGIN_INPUT = (By.CSS_SELECTOR, "#email")
@@ -18,7 +22,9 @@ class LoginPageLocators():
     SUBMIT_LOGIN = (By.CSS_SELECTOR, "#SubmitLogin")
     FORGOT_PASSWD = (By.CSS_SELECTOR, "#login_form:nth-child(1) a")
 
+
 class ContactPageLocators():
+
     SELECT_SUBJECT = (By.CSS_SELECTOR, "id_contact")
     EMAIL_INPUT = (By.CSS_SELECTOR, "#email")
     ORDER_REFERENCE = (By.CSS_SELECTOR, "#id_order")
