@@ -60,3 +60,12 @@ class AccountCreationPageLocators():
     MOBILE_PHONE = (By.CSS_SELECTOR, "#phone_mobile")
     ALIAS = (By.CSS_SELECTOR, "#alias")
     SUBMIT_ACCOUNT = (By.CSS_SELECTOR, "#submitAccount")
+
+class AccountPageLocators():
+    
+    ORDER_HISTORY_LINK = (By.CSS_SELECTOR, "[title='Orders']")
+    CREDIT_SLIPS_LINK = (By.CSS_SELECTOR, "[title='Credit slips']")
+    ADDRESSES_LINK = (By.CSS_SELECTOR, "[title='Addresses']")
+    PERSONAL_INFO_LINK = (By.CSS_SELECTOR, "[title='Information']")
+    WISHLISTS_LINK = (By.CSS_SELECTOR, "[title='My wishlists']")
+    HOME_LINK = (By.CSS_SELECTOR, "[title='Home']")
